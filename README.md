@@ -16,13 +16,14 @@ Neither objects nor decorators have no knowledge of the decorating/being decorat
 - When customers request for a beverage, they like to have add-ons like cream, marshmallows, etc.
 - The beverage can be `decorated WITH` cream and marshmallows
 - After being decorated, the beverage's cost will vary acc to the decorators
-- The beverage has no knowledge of being decorated hence no 
+- The beverage has no knowledge of being decorated
+- Customers can order Hot Chocolate; and have option to add cream and marshmallows to the beverage
 
 ### Running the code
 
 ```
 cd src/main/java
-javac DuckSimulator.java
-java DuckSimulator
+javac CafeCoffeeDay.java
+java CafeCoffeeDay
 
 ```
